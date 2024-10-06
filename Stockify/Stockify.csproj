@@ -8,4 +8,20 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Data\Models\" />
+      <Folder Include="Data\Repositories\" />
+      <Folder Include="Images\" />
+      <Folder Include="Services\" />
+      <Folder Include="Utilities\" />
+      <Folder Include="ViewModels\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\Auth.png" />
+      <Resource Include="Images\Auth.png" />
+      <None Remove="Images\oc.png" />
+      <Resource Include="Images\oc.png" />
+    </ItemGroup>
+
 </Project>
